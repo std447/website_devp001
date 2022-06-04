@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website</title>
+    <!-- <link rel="stylesheet" href="assets/css/main.css" /> -->
+
+    <style>
+      /* CSS Box model */
+      body,
+      div {
+        padding: 20px;
+        border: 5px dotted blue;
+      }
+
+      main,
+      main * {
+        outline: 1px solid red;
+        padding: 5px;
+        border: 5px dotted blue;
+      }
+
+      div + div {
+        margin-top: 20px;
+      }
+      /*Block Elements */
+      div,
+      body {
+        outline: 1px solid #f004;
+      }
+
+      /* Inline Elements */
+      span {
+        line-height: 50px;
+        outline: 1px solid green;
+        border: 5px dotted darkmagenta;
+        margin: 10px;
+        padding: 5px;
+        background-color: bisque;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CSS Box Model</h1>
+    <h2>Block Elements</h2>
+    <div>Div</div>
+    <div>Div</div>
+
+    <main>
+      <article>
+        <h2>My Article Title</h2>
+        <p>This is a line.</p>
+      </article>
+    </main>
+    <h2>Inline Elements</h2>
+
+    <span>span</span>
+    <span>span</span>
+    <span>span</span>
+    <strong>strong</strong>
+    <em>em</em>
+    <a href="#">link</a>
+  </body>
+</html>

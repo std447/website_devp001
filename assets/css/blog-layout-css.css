@@ -1,0 +1,23 @@
+p + h2 {
+  margin-top: 1.35em;
+}
+
+blockquote {
+  background: linear-gradient(45deg, #e7d0ff, transparent);
+  color: rebeccapurple;
+  margin: auto 0;
+  padding: 1em;
+  border-left: 2px solid rgb(100, 0, 200);
+  border-radius: 0.5em;
+}
+
+.img--align-left {
+  height: 200px;
+  float: left;
+  margin: 0 16px 16px -1em;
+  border-radius: 1em;
+}
+
+img + p {
+  min-height: 200px;
+}
